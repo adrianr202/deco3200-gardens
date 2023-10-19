@@ -1,7 +1,9 @@
 ﻿// Copyright 2022 Niantic, Inc. All Rights Reserved.
 
 using System;
+using System.Collections.Generic; // Add this for List<>
 using UnityEngine;
+using UnityEngine.UI;  // Import the UI namespace
 
 using Niantic.ARDK.AR.HitTest;
 using Niantic.ARDK.AR.Configuration;
@@ -13,6 +15,17 @@ namespace Niantic.LightshipHub.Templates
 {
   public class PlaneTrackerController : MonoBehaviour
   {
+
+    public Camera arCamera; // AR camera
+    public GameObject objectToPlace; // Object to place in AR
+
+    public float rayDistance = 10.0f;
+
+    private List<GameObject> _placedObjects = new List<GameObject>();
+    // private IARSession _session;
+
+    public Button placeObjectButton; // Plant button
+
     [HideInInspector]
     public ObjectHolderController OHcontroller;
     [HideInInspector]
@@ -28,13 +41,13 @@ namespace Niantic.LightshipHub.Templates
     private Vector3 planeNormal;
     private Quaternion currentRotation;
 
-    void Awake()
-    {
-      if (!ShowPlaneHelper) PlaneManager.PlanePrefab = null;
-    }
-
     void Start()
     {
+
+      placeObjectButton.onClick.AddListener(PlaceObjectOnClick); // button click handler
+
+      if (!ShowPlaneHelper) PlaneManager.PlanePrefab = null;
+
       switch (PlaneToTrack)
       {
         case PlaneOption.Horizontal:
@@ -51,6 +64,7 @@ namespace Niantic.LightshipHub.Templates
 
     void Update()
     {
+      // touch input script
       if (_animationRunning) TranslateToPosition();
 
       if (PlatformAgnosticInput.touchCount <= 0) return;
@@ -60,6 +74,10 @@ namespace Niantic.LightshipHub.Templates
       {
         TouchBegan(touch);
       }
+
+    if (_animationRunning)
+        TranslateToPosition();
+
     }
 
     void TranslateToPosition()
@@ -147,6 +165,14 @@ namespace Niantic.LightshipHub.Templates
         OHcontroller.ObjectHolder.transform.position = position;
         OHcontroller.ObjectHolder.transform.rotation = rotation;
       }
+    }
+
+    private void PlaceObjectOnClick()
+      {
+          var currentFrame = OHcontroller.Session.CurrentFrame;
+          if (currentFrame == null || arCamera == null)
+              return;
+
     }
   }
 }
