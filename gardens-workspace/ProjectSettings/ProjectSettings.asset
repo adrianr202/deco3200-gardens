@@ -493,7 +493,7 @@ PlayerSettings:
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
   cameraUsageDescription: Required For AR.
-  locationUsageDescription: 
+  locationUsageDescription: Required For AR.
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
   switchNMETAOverride: 
