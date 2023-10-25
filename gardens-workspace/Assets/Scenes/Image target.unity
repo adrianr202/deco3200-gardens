@@ -213,13 +213,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: gardens-by-the-bay_article
+  mTrackableName: 
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Image_target.xml
-  mAspectRatio: 0.78125
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.78125
+  mWidth: 0.2
+  mHeight: 0.2
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 521600861}
   mHiddenRoot: {fileID: 0}
-  mTargetName: gardens-by-the-bay_article
+  mTargetName: 
   mDatasetName: Vuforia/Image_target.xml
   mCastedBehaviour: {fileID: 521600861}
   mMeshFilter: {fileID: 0}
