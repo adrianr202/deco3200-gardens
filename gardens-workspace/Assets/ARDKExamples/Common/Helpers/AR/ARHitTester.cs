@@ -40,6 +40,8 @@ namespace Niantic.ARDKExamples.Helpers
 
     /// Internal reference to the session, used to get the current frame to hit test against.
     private IARSession _session;
+
+    
     
     private void Start()
     {
@@ -78,6 +80,10 @@ namespace Niantic.ARDKExamples.Helpers
 
     public void PerformHitTest()
     {
+
+      var viewportWidth = GetComponent<Camera>().pixelWidth;
+      var viewportHeight = GetComponent<Camera>().pixelHeight;
+      
       Debug.Log("Button clicked."); // Add this line for debugging
       if (_session == null)
       {
@@ -85,7 +91,7 @@ namespace Niantic.ARDKExamples.Helpers
       }
 
       // Replace touch input logic with a hit test from the center of the screen
-      var screenCenter = new Vector2(Screen.width / 2, Screen.height / 2);
+      var screenCenter = new Vector2(viewportWidth / 2f, viewportHeight / 2f);
 
       var currentFrame = _session.CurrentFrame;
       if (currentFrame == null)

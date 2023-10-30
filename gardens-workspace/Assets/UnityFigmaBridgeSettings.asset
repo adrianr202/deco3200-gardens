@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 119c1bd3601648f28a252a6030e067b6, type: 3}
   m_Name: UnityFigmaBridgeSettings
   m_EditorClassIdentifier: 
-  DocumentUrl: https://www.figma.com/file/4Rx0977ish9lM7ZkeP6mrF/gARdens-UI?type=design&t=tQZ3H3AGDvj43Hqi-6
-  BuildPrototypeFlow: 1
+  DocumentUrl: https://www.figma.com/file/SyBzJm8doVL8WK2HHM79k3/DECO3200---Final-Assets?type=design&t=t7JOJ1AJQ6LPsBLw-6
+  BuildPrototypeFlow: 0
   RunTimeAssetsScenePath: Assets/Scenes/FigmaBridge.unity
   EnableAutoLayout: 0
   ScreenBindingNamespace: 
