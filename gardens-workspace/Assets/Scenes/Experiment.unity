@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641228, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,7 +155,7 @@ PrefabInstance:
     - target: {fileID: 6857156764231037020, guid: 00fb87ad56ab3e446a288e3531124d3a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7786282178050793189, guid: 00fb87ad56ab3e446a288e3531124d3a,
         type: 3}
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032405502}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38c6610807e28534c8c46186e887e121, type: 3}
   m_Name: 
@@ -2078,18 +2078,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 158068711}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1466247408 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3800523230853321827, guid: 8388ca9d177fcc64c87b7275f0725613,
-    type: 3}
-  m_PrefabInstance: {fileID: 158068711}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466247406}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0186b0e08a08b6645958d1b546fb94ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1466247411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2146,7 +2134,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1466247408}
+  m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2789,7 +2777,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874745070}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55f1bf24bfcd4a340ba0e93f3bb81331, type: 3}
   m_Name: 
