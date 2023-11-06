@@ -84,7 +84,7 @@ namespace Niantic.ARDKExamples.Helpers
       var viewportWidth = GetComponent<Camera>().pixelWidth;
       var viewportHeight = GetComponent<Camera>().pixelHeight;
       
-      Debug.Log("Button clicked."); // Add this line for debugging
+      // Debug.Log("Button clicked."); // Add this line for debugging
       if (_session == null)
       {
         return;
@@ -108,7 +108,7 @@ namespace Niantic.ARDKExamples.Helpers
       );
 
       int count = results.Count;
-      Debug.Log("Hit test results: " + count);
+      // Debug.Log("Hit test results: " + count);
 
       if (count <= 0)
       {

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 718074563481323128}
   - component: {fileID: 8867420162499425945}
   m_Layer: 0
-  m_Name: Group 226
+  m_Name: AnswerPrompt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4293718506
   m_fontColor: {r: 0.9158497, g: 0.94661456, b: 0.9268368, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 8215639039770805930}
   - component: {fileID: 6199660065700215302}
   m_Layer: 0
-  m_Name: Group 229
+  m_Name: AnswerButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4281875010
   m_fontColor: {r: 0.25882354, g: 0.22745098, b: 0.21960784, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -755,7 +755,7 @@ GameObject:
   - component: {fileID: 8218195276957635}
   - component: {fileID: 5423316078692249978}
   m_Layer: 0
-  m_Name: Group 227
+  m_Name: WaterPrompt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1596,7 +1596,7 @@ GameObject:
   - component: {fileID: 5398030524140268975}
   - component: {fileID: 1551069544931859873}
   m_Layer: 0
-  m_Name: Group 224
+  m_Name: Backdrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1777,7 +1777,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4281875010
   m_fontColor: {r: 0.25882354, g: 0.22745098, b: 0.21960784, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1790,7 +1790,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -1934,7 +1934,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4293718506
   m_fontColor: {r: 0.9158497, g: 0.94661456, b: 0.9268368, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1947,7 +1947,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -2012,7 +2012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6108157286863929262
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2311,7 +2311,7 @@ GameObject:
   - component: {fileID: 9079780599742333856}
   - component: {fileID: 6851284135394120670}
   m_Layer: 0
-  m_Name: Group 228
+  m_Name: WaterButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2627,7 +2627,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4293718506
   m_fontColor: {r: 0.9158497, g: 0.94661456, b: 0.9268368, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2640,7 +2640,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -2939,7 +2939,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4286760283
   m_fontColor: {r: 0.35686275, g: 0.77254903, b: 0.50980395, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2952,7 +2952,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -3107,7 +3107,7 @@ GameObject:
   - component: {fileID: 8846659371874698559}
   - component: {fileID: 517408734427953359}
   m_Layer: 0
-  m_Name: Group 225
+  m_Name: CancelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

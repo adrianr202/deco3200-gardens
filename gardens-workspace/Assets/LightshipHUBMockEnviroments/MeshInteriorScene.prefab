@@ -998,9 +998,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timeToDiscovery: 2
-  _name: yeti
+  _name: floordecal
   _orientation: 1
-  _image: {fileID: 2800000, guid: 3e1806884bb79417f85941feff2c1c79, type: 3}
+  _image: {fileID: 2800000, guid: e2df7c6fca5c54c1b8d835a6b973145c, type: 3}
 --- !u!1 &2035453952308363220 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7834720056349142889, guid: 8bf880f54fe8842b797cfced2ed246b9,
@@ -1700,6 +1700,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4042764071439902}
     m_Modifications:
+    - target: {fileID: 2469054188178681301, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3132556557734149882, guid: a9386893aed834b2b92847c8260da33f,
         type: 3}
       propertyPath: m_Name
@@ -1710,6 +1715,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3132556557734149882, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989416674773379572, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1718,52 +1733,52 @@ PrefabInstance:
     - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 4.466667
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.349
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.355
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.2302194
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
         type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.504
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.445
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9668903
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
+        type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9731388
+      value: -0.25519267
       objectReference: {fileID: 0}
     - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
         type: 3}
@@ -1773,7 +1788,7 @@ PrefabInstance:
     - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 206.62
+      value: 389.57
       objectReference: {fileID: 0}
     - target: {fileID: 8908185847455261420, guid: a9386893aed834b2b92847c8260da33f,
         type: 3}
@@ -1794,3 +1809,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5982289831376086301}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8681901525863898087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3132556557734149882, guid: a9386893aed834b2b92847c8260da33f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5982289831376086301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1281858228867976022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8681901525863898087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304c61c136de41519c9927f6668260e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeToDiscovery: 2
+  _name: floordecal
+  _orientation: 1
+  _image: {fileID: 2800000, guid: e2df7c6fca5c54c1b8d835a6b973145c, type: 3}
