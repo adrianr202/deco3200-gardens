@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ARDKExamples/VirtualStudio/Playback/PlaybackDatasetCapture.unity
     guid: 9caf33eeb8e984c60a085cf3e1e3a126
+  - enabled: 0
+    path: Assets/Scenes/MainScreen.unity
+    guid: a8d8fc708866c4c4092403fa571d4fba
   - enabled: 1
     path: Assets/Scenes/DECO3200.unity
     guid: 81c40053e795de54fad22a611da9a1b7
