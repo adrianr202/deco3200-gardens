@@ -1,3 +1,9 @@
+//  <summary>
+//  Managing the activation and deactivation of specific scripts within a target GameObject
+//  Modular way to control script activation states
+//  <summary>
+
+
 using UnityEngine;
 
 public class ActivationController : MonoBehaviour

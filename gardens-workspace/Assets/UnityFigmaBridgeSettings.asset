@@ -15,7 +15,7 @@ MonoBehaviour:
   DocumentUrl: https://www.figma.com/file/SyBzJm8doVL8WK2HHM79k3/DECO3200---Final-Assets?type=design&t=t7JOJ1AJQ6LPsBLw-6
   BuildPrototypeFlow: 0
   RunTimeAssetsScenePath: Assets/Scenes/FigmaBridge.unity
-  EnableAutoLayout: 0
+  EnableAutoLayout: 1
   ScreenBindingNamespace: 
   ServerRenderImageScale: 3
   EnableGoogleFontsDownloads: 1

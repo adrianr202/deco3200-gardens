@@ -1,3 +1,12 @@
+// This script is for UI elements to face the user through the rotation of the camera
+
+// <summary>
+// Control the rotation of a collection of specified objects based on the rotation of the main camera.
+
+// Quaternion.Slerp (Spherical Linear Interpolation) to interpolate between the current 
+// rotation of each object and the camera's rotation
+// <summary>
+
 using UnityEngine;
 
 public class UICameraPosition : MonoBehaviour

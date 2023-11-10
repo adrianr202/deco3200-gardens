@@ -1,3 +1,8 @@
+// activate a UI element when a specific game object is clicked.
+
+// Public Input:
+// uiElement: A reference to the UI element you want to show.
+
 using UnityEngine;
 
 public class ClickObjectShowUI : MonoBehaviour
@@ -9,7 +14,6 @@ public class ClickObjectShowUI : MonoBehaviour
         // Check for mouse click
         if (Input.GetMouseButtonDown(0)) // Left mouse button
         {
-
     
             // Create a ray from the camera through the mouse position
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -18,8 +22,8 @@ public class ClickObjectShowUI : MonoBehaviour
             // Check if the ray hits this GameObject
             if (Physics.Raycast(ray, out hit) && hit.transform == transform)
             {
-                // The GameObject was clicked
-                Debug.Log("ShowUI Activated");
+                // Debug purposes
+                // Debug.Log("ShowUI Activated");
                 ShowUI();
             }
         }
